@@ -1,0 +1,8 @@
+# Dining-Hall-Traffic
+Machine learning through Scikit, organize and prepare for traffic in the dining halls
+
+Functionalities:
+1. Built-in parser for csv files of door data, building codes, and (fake) student IDs
+2. Decision-tree classifier, given data from csv files, to predict amount of traffic in the dining hall.
+  -Takes parameters of  the college, day of the week, swipes by 11:45am, swipes by 12:00pm, and swipes by 12:15pm to predict if it will be a low, average, or high traffic day
+3. Decition tree to predict whether students should be given notifications about "behaviors of concern" given parameters of skipping meals, classes, and lack of swiping into buildings and residential colleges
